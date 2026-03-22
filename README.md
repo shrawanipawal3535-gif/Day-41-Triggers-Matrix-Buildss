@@ -46,6 +46,14 @@ Each job installs Python and prints the version
 
 Watch all 3 run in parallel
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/38da730b-8de7-4784-a0cd-59650fd21f6b" />
+
+## Task 5: Exclude & Fail-Fast
+
+In your matrix, exclude one specific combination (e.g., Python 3.10 on Windows)
+
+Set fail-fast: false — trigger a failure in one job and observe what happens to the rest
+
 
 
 
