@@ -54,6 +54,8 @@ In your matrix, exclude one specific combination (e.g., Python 3.10 on Windows)
 
 Set fail-fast: false — trigger a failure in one job and observe what happens to the rest
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/07bad325-c042-4b01-bd9b-8a78b201fe2f" />
+
 
 
 
