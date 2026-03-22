@@ -22,4 +22,30 @@ Set it to run every day at midnight UTC
 
 Write in your notes: What is the cron expression for every Monday at 9 AM?
 
+## Task 3: Manual Trigger
+
+Create .github/workflows/manual.yml with a workflow_dispatch: trigger
+
+Add an input that asks for an environment name (staging/production)
+
+Print the input value in a step
+
+Go to the Actions tab → find the workflow → click Run workflow
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7e2b5fed-f45b-4c61-888f-b3ba9c9354a3" />
+
+## Task 4: Matrix Builds
+
+Create .github/workflows/matrix.yml that:
+
+Uses a matrix strategy to run the same job across:
+
+Python versions: 3.10, 3.11, 3.12
+
+Each job installs Python and prints the version
+
+Watch all 3 run in parallel
+
+
+
 
